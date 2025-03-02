@@ -244,3 +244,176 @@
     margin: 10px 0;
 }
 
+#dual-image-section {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.image-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.image-box.left {
+    background: url('promo_apple_watch_unity__casvx9ysh1le_small.jpg') center/cover no-repeat;
+}
+
+.image-box.right {
+    background: url('promo_apple_watch_series_10_avail_lte__c70y29goir42_small.jpg') center/cover no-repeat;
+}
+
+.content {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.learn-more {
+    background-color: #0071e3;
+    color: white;
+}
+
+.learn-more:hover {
+    background-color: #005bb5;
+}
+
+.buy {
+    border: 2px solid white;
+    color: white;
+    margin-left: 10px;
+}
+
+.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    #dual-image-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .image-box {
+        height: 300px;
+    }
+
+    .content {
+        width: 80%;
+    }
+}
+#extra-dual-image-section {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#extra-dual-image-section .image-box.left {
+    background: url('promo_macbookpro_announce__gdf98j6tj2ie_large.jpg') center/cover no-repeat;
+}
+
+#extra-dual-image-section .image-box.right {
+    background: url('promo_airpods_pro_2_avail__vkitqi3okwie_large.jpg') center/cover no-repeat;
+}
+
+@media (max-width: 768px) {
+    #extra-dual-image-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .image-box {
+        height: 300px;
+    }
+
+    .content {
+        width: 80%;
+    }
+}
+#trade-card-section {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.info-box {
+    flex: 1;
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-image {
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.apply-now {
+    border: 2px solid #0071e3;
+    color: #0071e3;
+}
+
+.apply-now:hover {
+    background-color: #0071e3;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #trade-card-section {
+        flex-direction: column;
+    }
+
+    .info-box {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
